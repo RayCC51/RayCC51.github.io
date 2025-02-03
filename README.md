@@ -70,4 +70,4 @@ Should Rebuild: `YAML`
 
 ## Github Action
 
-- Add `--exclude '*.webp'` in `broken-links.yml` `jobs: ... args:`
+- Add `--exclude '.*\.webp'` in `broken-links.yml` `jobs: ... args:`
