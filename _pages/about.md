@@ -35,4 +35,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 #?? biography
 -->
 
-Hello world!
+Native language: 한국어(Korean)
+
+Can understand: English

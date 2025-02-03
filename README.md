@@ -3,6 +3,7 @@
 ### Every posts update at 23:30 UTC
 
 **Blog**: Make `yyyy-mm-dd-NAME.md` in `_posts`
+
 **Projects**: Make `NAME.md` in `_projects`
 
 ---
@@ -44,10 +45,13 @@ Should Rebuild: `YAML`
 ## SCSS
 
 - grey-color-dark: #1c1c1d -> #2f2c2c
+- h1.header-bar
 
 ## Liquid
 
 - %B %d, %Y -> %Y-%m-%d
+- post.liquid: Split lines between 'created in' and 'last update in'
+- header.liquid: navbar-expand-sm -> navbar-expand
 
 ## Remove
 

@@ -4,6 +4,10 @@
 
 // Typography
 
+img {
+  max-width: 100%;
+}
+
 p,
 h1,
 h2,
@@ -346,6 +350,7 @@ ul.task-list input[type="checkbox"] {
 .navbar-toggler {
   .icon-bar {
     display: block;
+    // display: block;
     width: 22px;
     height: 2px;
     background-color: var(--global-text-color);
@@ -548,13 +553,13 @@ footer.sticky-bottom {
 
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
-  text-align: center;
-  padding-top: 2rem;
+  text-align: left;
+  // padding-top: 2rem;
   padding-bottom: 3rem;
 
   h1 {
-    color: var(--global-theme-color);
-    font-size: 5rem;
+    color: var(--global-text-color);
+    font-size: 2.5rem;
   }
 }
 
