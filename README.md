@@ -46,6 +46,8 @@ Should Rebuild: `YAML`
 
 - grey-color-dark: #1c1c1d -> #2f2c2c
 - h1.header-bar
+- --global-theme-color: #{$purple-color} -> ???
+- --global-theme-color dark: #{$cyan-color} -> ???
 
 ## Liquid
 
