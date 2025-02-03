@@ -222,7 +222,6 @@ exclude:
   - _layouts/profiles.liquid
   # Dropdown
   - _pages/dropdown.md
-  #?? exclude files
 keep_files:
   - CNAME
   - .nojekyll
@@ -289,7 +288,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 #?? display tags, categories
-display_tags: ["test-tags"] # ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+display_tags: ["sample"] # ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: [] # ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------

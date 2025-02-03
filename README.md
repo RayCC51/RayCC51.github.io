@@ -1,9 +1,25 @@
+# Writing
+
 ### Every posts update at 23:30 UTC
+
+**Blog**: Make `yyyy-mm-dd-NAME.md` in `_posts`
+**Projects**: Make `NAME.md` in `_projects`
+
+---
 
 # Todo
 
-- Project
 - Search `#??` and add something.
+
+---
+
+# Tag, Categories
+
+- **Blog**: `_config.yml`
+  `display_tags: ["sample"]`
+  `display_categories: []`
+- **Project**: `projects.md`
+  `display_categories: [study]`
 
 ---
 
@@ -11,7 +27,7 @@
 
 Run in terminal: `bundle exec jekyll serve --watch`
 
-Then [local server](http://127.0.0.1:4000) will launch!
+Then [local server(127.0.0.1:4000)](http://127.0.0.1:4000) will launch!
 
 Automatically change: `HTML`, `CSS`, `JS`, `Markdown`
 Should Rebuild: `YAML`
