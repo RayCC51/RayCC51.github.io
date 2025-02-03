@@ -8,7 +8,7 @@ pagination:
   enabled: true
   collection: posts
   permalink: /page/:num/
-  per_page: 5
+  per_page: 10
   sort_field: date
   sort_reverse: true
   trail:
@@ -142,7 +142,7 @@ pagination:
       <p>{{ post.description }}</p>
       <p class="post-meta">
         {{ read_time }} min read &nbsp; &middot; &nbsp;
-        {{ post.date | date: '%B %d, %Y' }}
+        {{ post.date | date: '%Y-%m-%d' }}
         {% if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
         {% endif %}

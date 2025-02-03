@@ -6,20 +6,19 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Ray
 middle_name:
 last_name: CC
-contact_note: This is bottom
+contact_note: #??
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Ray CC's website.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+keywords: jekyll, portfolio-website # add your own keywords or leave empty
+lang: en, ko # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: 💻 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://RayCC51.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -48,7 +47,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 bib_search: true
@@ -86,8 +85,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: RayCC # blog_name will be displayed in your blog page
+blog_description: #??
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -97,11 +96,11 @@ pagination:
 
 related_blog_posts:
   enabled: true
-  max_related: 5
+  max_related: 3
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
-giscus:
+giscus: #??
   repo: # <your-github-user-name>/<your-github-repo-name>
   repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
@@ -115,19 +114,20 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+  #?? external sources
+  # - name: medium.com
+  #   rss_url: https://medium.com/@al-folio/feed
+  # - name: Google Blog
+  #   posts:
+  #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+  #       published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -143,11 +143,11 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /:collection/:title/
+  # news:
+  #   defaults:
+  #     layout: post
+  #   output: true
+  #   permalink: /:collection/:title/
   projects:
     output: true
     permalink: /:collection/:title/
@@ -191,6 +191,38 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  # Trash posts
+  - .trash/
+  # News
+  - _news/
+  - _includes/news.liquid
+  # Publication
+  - _bibliography/
+  - _pages/publications.md
+  - _layouts/bib.liquid
+  - _layouts/distill.liquid
+  - _includes/bib_search.liquid
+  - _includes/selected_papers.liquid
+  - _plugins/google-scholar-citations.rb
+  - _plugins/hide-custom-bibtex.rb
+  - _plugins/inspirehep-citations.rb
+  # Repositories
+  - _pages/repositories.md
+  - _includes/repository/
+  # CV
+  - _includes/cv/
+  - _includes/resume/
+  - _data/cv.yml
+  - _pages/cv.md
+  - _layouts/cv.liquid
+  # Teaching
+  - _pages/teaching.md
+  # People
+  - _pages/profiles.md
+  - _layouts/profiles.liquid
+  # Dropdown
+  - _pages/dropdown.md
+  #?? exclude files
 keep_files:
   - CNAME
   - .nojekyll
@@ -207,7 +239,7 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
-  - jekyll/scholar
+  # - jekyll/scholar
   - jekyll-sitemap
   - jekyll-tabs
   - jekyll-terser
@@ -256,79 +288,80 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+#?? display tags, categories
+display_tags: ["test-tags"] # ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+display_categories: [] # ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
-scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+# scholar:
+#   last_name: [Einstein]
+#   first_name: [Albert, A.]
 
-  style: apa
-  locale: en
+#   style: apa
+#   locale: en
 
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+#   source: /_bibliography/
+#   bibliography: papers.bib
+#   bibliography_template: bib
+#   # Note: if you have latex math in your bibtex, the latex filter
+#   # preprocessing may conflict with MathJAX if the latter is enabled.
+#   # See https://github.com/alshedivat/al-folio/issues/357.
+#   bibtex_filters: [latex, smallcaps, superscript]
 
-  replace_strings: true
-  join_strings: true
+#   replace_strings: true
+#   join_strings: true
 
-  details_dir: bibliography
-  details_link: Details
+#   details_dir: bibliography
+#   details_link: Details
 
-  query: "@*"
-  group_by: year
-  group_order: descending
+#   query: "@*"
+#   group_by: year
+#   group_order: descending
 
-# Display different badges withs stats for your publications
-# Customize badge behavior in _layouts/bib.liquid
-enable_publication_badges:
-  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
-  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+# # Display different badges withs stats for your publications
+# # Customize badge behavior in _layouts/bib.liquid
+# enable_publication_badges:
+#   altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
+#   dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
+#   google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+#   inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
-# Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords:
-  [
-    abbr,
-    abstract,
-    additional_info,
-    altmetric,
-    annotation,
-    arxiv,
-    award,
-    award_name,
-    bibtex_show,
-    blog,
-    code,
-    google_scholar_id,
-    html,
-    inspirehep_id,
-    pdf,
-    poster,
-    preview,
-    selected,
-    slides,
-    supp,
-    video,
-    website,
-  ]
+# # Filter out certain bibtex entry keywords used internally from the bib output
+# filtered_bibtex_keywords:
+#   [
+#     abbr,
+#     abstract,
+#     additional_info,
+#     altmetric,
+#     annotation,
+#     arxiv,
+#     award,
+#     award_name,
+#     bibtex_show,
+#     blog,
+#     code,
+#     google_scholar_id,
+#     html,
+#     inspirehep_id,
+#     pdf,
+#     poster,
+#     preview,
+#     selected,
+#     slides,
+#     supp,
+#     video,
+#     website,
+#   ]
 
-# Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
-more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
+# # Maximum number of authors to be shown for each publication (more authors are visible on click)
+# max_author_limit: 3 # leave blank to always show all authors
+# more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
-# Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-enable_publication_thumbnails: true
+# # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
+# enable_publication_thumbnails: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
