@@ -1,96 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, ko"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://raycc51.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://raycc51.github.io/" rel="alternate" type="text/html" hreflang="en, ko"/><updated>2025-02-03T05:23:16+00:00</updated><id>https://raycc51.github.io/feed.xml</id><title type="html">blank</title><subtitle>Ray CC&apos;s website. </subtitle><entry><title type="html">Sample blog post</title><link href="https://raycc51.github.io/blog/2025/test/" rel="alternate" type="text/html" title="Sample blog post"/><published>2025-02-02T09:50:00+00:00</published><updated>2025-02-02T09:50:00+00:00</updated><id>https://raycc51.github.io/blog/2025/test</id><content type="html" xml:base="https://raycc51.github.io/blog/2025/test/"><![CDATA[<h2 id="pinned">Pinned</h2> <p><code class="language-plaintext highlighter-rouge">featured: true</code></p> <hr/> <h2 id="toc">TOC</h2> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>toc:
-  beginning: true
-</code></pre></div></div> <hr/> <h2 id="blockquote">Blockquote</h2> <blockquote> <p>Regular blockquote</p> </blockquote> <blockquote class="block-tip"> <h4 id="tip">Tip</h4> <p>I am a Tip!</p> </blockquote> <blockquote class="block-warning"> <h4 id="warning">Warning</h4> <p>I am a Warning!</p> </blockquote> <blockquote class="block-danger"> <h4 id="danger">Danger</h4> <p>I am a Danger!</p> </blockquote> <hr/> <h2 id="giscus-comments"><a href="https://giscus.app/">Giscus</a> comments</h2> <p><code class="language-plaintext highlighter-rouge">giscus_comments: true</code></p> <hr/> <h2 id="image---lightbox2">Image - <a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox2</a></h2> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>images:
-  lightbox2: true
-</code></pre></div></div> <div class="container"> <a href="/assets/img/1-1400.webp" data-lightbox="image-set"><img src="/assets/img/1-480.webp"/></a> <a href="/assets/img/1.jpg" data-lightbox="image-set"><img src="/assets/img/1.jpg"/></a> </div> <p>Large image: <code class="language-plaintext highlighter-rouge">&lt;a href=""&gt;</code></p> <p>Small image: <code class="language-plaintext highlighter-rouge">&lt;img src=""&gt;</code></p> <p>Auto generate by Imagemagick</p> <ul> <li>1.jpg (origin)</li> <li>1-480.webp</li> <li>1-800.webp</li> <li>1-1400.webp</li> </ul> <hr/> <h2 id="code">Code</h2> <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, ko"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://raycc51.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://raycc51.github.io/" rel="alternate" type="text/html" hreflang="en, ko"/><updated>2025-02-03T18:22:05+00:00</updated><id>https://raycc51.github.io/feed.xml</id><title type="html">blank</title><subtitle>Ray CC&apos;s website. </subtitle><entry><title type="html">Sample blog post</title><link href="https://raycc51.github.io/blog/2025/test/" rel="alternate" type="text/html" title="Sample blog post"/><published>2025-02-02T09:50:00+00:00</published><updated>2025-02-02T09:50:00+00:00</updated><id>https://raycc51.github.io/blog/2025/test</id><content type="html" xml:base="https://raycc51.github.io/blog/2025/test/"><![CDATA[<h2 id="template">Template</h2> <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Sample blog post</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">2025-02-02 09:50:00</span>
+<span class="c1"># last_updated: 2025-02-02 14:00:00</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s">Test blog post tools</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="s">sample</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="s">sample</span>
+<span class="na">thumbnail</span><span class="pi">:</span> <span class="s">assets/img/1.jpg</span>
+<span class="na">giscus_comments</span><span class="pi">:</span> <span class="kc">true</span>
+<span class="na">featured</span><span class="pi">:</span> <span class="kc">true</span> <span class="c1"># Pinned</span>
+<span class="na">toc</span><span class="pi">:</span>
+  <span class="na">beginning</span><span class="pi">:</span> <span class="kc">true</span>
+<span class="na">images</span><span class="pi">:</span>
+  <span class="na">lightbox2</span><span class="pi">:</span> <span class="kc">true</span>
+<span class="nn">---</span>
+</code></pre></div></div> <hr/> <h2 id="embedding-video">Embedding Video</h2> <div class="col-sm mt-3 mt-md-0"> <figure> <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"/> </figure> </div> <pre><code class="language-HTML">
+&lt;div class="col-sm mt-3 mt-md-0"&gt;
+    {% include video.liquid path="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" %}
+&lt;/div&gt;
+
+</code></pre> <hr/> <h2 id="code-with-lines">Code with lines</h2> <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2
-3
 </pre></td><td class="code"><pre><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Hello world!</span><span class="sh">"</span><span class="p">)</span>
 <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Hello world!</span><span class="sh">"</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></figure> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="p">{</span><span class="o">%</span> <span class="n">highlight</span> <span class="n">python</span> <span class="n">linenos</span> <span class="o">%</span><span class="p">}</span>
+
 <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Hello world!</span><span class="sh">"</span><span class="p">)</span>
-</pre></td></tr></tbody></table></code></pre></figure> <hr/> <h2 id="code-tab---jekyll-tabs">Code Tab - <a href="https://github.com/Ovski4/jekyll-tabs">jekyll-tabs</a></h2> <p><code class="language-plaintext highlighter-rouge">tabs: true</code></p> <ul id="group-name" class="tab" data-tab="1e221c8e-9b82-4d70-9f76-a6a93764e3e8" data-name="group-name"> <li class="active" id="group-name-python"> <a href="#">python </a> </li> <li id="group-name-js"> <a href="#">js </a> </li> <li id="group-name-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="1e221c8e-9b82-4d70-9f76-a6a93764e3e8" data-name="group-name"> <li class="active"> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">hello world</span><span class="sh">"</span><span class="p">)</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello world</span><span class="dl">"</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <hr/> <h2 id="redirect">Redirect</h2> <p><code class="language-plaintext highlighter-rouge">redirect: example.com</code></p> <p><code class="language-plaintext highlighter-rouge">redirect: /assets/image/1.jpg</code></p> <hr/> <h2 id="audio-video">Audio, Video</h2> <h3 id="audio">Audio</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="row mt-3"&gt;
-    &lt;div class="col-sm mt-3 mt-md-0"&gt;
-        &lt;figure&gt;
-  &lt;audio
-    src="/assets/audio/epicaly-short-113909.mp3"
-    
-    
-    
-    
-    
-      controls
-    
-    
-    
-  /&gt;
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Hello world!</span><span class="sh">"</span><span class="p">)</span>
 
-  
-&lt;/figure&gt;
+<span class="p">{</span><span class="o">%</span> <span class="n">endhighlight</span> <span class="o">%</span><span class="p">}</span>
 
-    &lt;/div&gt;
-    &lt;div class="col-sm mt-3 mt-md-0"&gt;
-        &lt;figure&gt;
-  &lt;audio
-    src="https://cdn.pixabay.com/download/audio/2022/06/25/audio_69a61cd6d6.mp3"
-    
-    
-    
-    
-    
-      controls
-    
-    
-    
-  /&gt;
-
-  
-&lt;/figure&gt;
-
-    &lt;/div&gt;
+</code></pre></div></div> <hr/> <h2 id="image---lightbox2">Image - <a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox2</a></h2> <div class="container"> <a href="/assets/img/1-1400.webp" data-lightbox="My image" data-title="My image caption" data-alt="My alt text"> <figure> <img src="/assets/img/1-480.webp" alt="My alt text"/> <figcaption>My image caption</figcaption> </figure> </a> </div> <pre><code class="language-HTML">
+&lt;div class="container"&gt;
+  &lt;a href="{{ '/assets/img/1-1400.webp' | relative_url }}" data-lightbox="My image" data-title="My image caption" data-alt="My alt text"&gt;
+    &lt;figure&gt;
+      &lt;img src="{{ '/assets/img/1-480.webp' | relative_url }}" alt="My alt text"/&gt;
+      &lt;figcaption&gt;My image caption&lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
 &lt;/div&gt;
-&lt;div class="caption"&gt;
-  Audio in Left: asset, Right: web
-&lt;/div&gt;
-</code></pre></div></div> <h3 id="video">Video</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="col-sm mt-3 mt-md-0"&gt;
-    
 
-&lt;figure&gt;
-  
-    &lt;video
-      src="/assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4"
-      
-        class="img-fluid rounded z-depth-1"
-      
-      
-        width="auto"
-      
-      
-        height="auto"
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        controls
-      
-      
-      
-      
-    /&gt;
+</code></pre> <p>Large image: <code class="language-plaintext highlighter-rouge">&lt;a href=""&gt;</code></p> <p>Small image: <code class="language-plaintext highlighter-rouge">&lt;img src=""&gt;</code></p> <p>Auto generate by Imagemagick</p> <ul> <li>1.jpg (origin)</li> <li>1-480.webp</li> <li>1-800.webp</li> <li>1-1400.webp</li> </ul> <hr/> <h2 id="blockquote">Blockquote</h2> <blockquote> <p>Regular blockquote</p> </blockquote> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; Regular blockquote</span>
+</code></pre></div></div> <blockquote class="block-tip"> <h4 id="tip">Tip</h4> <p>I am a Tip!</p> </blockquote> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c">&lt;!-- prettier-ignore-start --&gt;</span>
+<span class="gt">&gt; #### Tip</span>
+<span class="gt">&gt;</span>
+<span class="gt">&gt; I am a Tip!</span>
+{: .block-tip }
+<span class="c">&lt;!-- prettier-ignore-end --&gt;</span>
 
-  
-  
-&lt;/figure&gt;
+</code></pre></div></div> <blockquote class="block-warning"> <h4 id="warning">Warning</h4> <p>I am a Warning!</p> </blockquote> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c">&lt;!-- prettier-ignore-start --&gt;</span>
+<span class="gt">&gt; #### Warning</span>
+<span class="gt">&gt;</span>
+<span class="gt">&gt; I am a Warning!</span>
+{: .block-warning }
+<span class="c">&lt;!-- prettier-ignore-end --&gt;</span>
 
-&lt;/div&gt;
-&lt;div class="caption"&gt;
-    Video in: asset
-&lt;/div&gt;
-</code></pre></div></div> <h3 id="embedding-video">Embedding Video</h3> <div class="col-sm mt-3 mt-md-0"> <figure> <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"/> </figure> </div>]]></content><author><name></name></author><category term="sample"/><category term="sample"/><summary type="html"><![CDATA[Test blog post tools]]></summary></entry></feed>
+</code></pre></div></div> <blockquote class="block-danger"> <h4 id="danger">Danger</h4> <p>I am a Danger!</p> </blockquote> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c">&lt;!-- prettier-ignore-start --&gt;</span>
+<span class="gt">&gt; #### Danger</span>
+<span class="gt">&gt;</span>
+<span class="gt">&gt; I am a Danger!</span>
+{: .block-danger }
+<span class="c">&lt;!-- prettier-ignore-end --&gt;</span>
+
+</code></pre></div></div> ]]></content><author><name></name></author><category term="sample"/><category term="sample"/><summary type="html"><![CDATA[Test blog post tools]]></summary></entry></feed>
