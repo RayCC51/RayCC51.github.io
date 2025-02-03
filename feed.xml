@@ -1,12 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, ko"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://raycc51.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://raycc51.github.io/" rel="alternate" type="text/html" hreflang="en, ko"/><updated>2025-02-03T02:11:22+00:00</updated><id>https://raycc51.github.io/feed.xml</id><title type="html">blank</title><subtitle>Ray CC&apos;s website. </subtitle><entry><title type="html">Test all in one</title><link href="https://raycc51.github.io/blog/2025/test/" rel="alternate" type="text/html" title="Test all in one"/><published>2025-02-02T09:50:00+00:00</published><updated>2025-02-02T09:50:00+00:00</updated><id>https://raycc51.github.io/blog/2025/test</id><content type="html" xml:base="https://raycc51.github.io/blog/2025/test/"><![CDATA[<h2 id="pinned">Pinned</h2> <p><code class="language-plaintext highlighter-rouge">featured: true</code></p> <hr/> <h2 id="image">Image</h2> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/8-480.webp 480w,/assets/img/8-800.webp 800w,/assets/img/8-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/8.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> test </div> <hr/> <h2 id="code">Code</h2> <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en, ko"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://raycc51.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://raycc51.github.io/" rel="alternate" type="text/html" hreflang="en, ko"/><updated>2025-02-03T02:38:47+00:00</updated><id>https://raycc51.github.io/feed.xml</id><title type="html">blank</title><subtitle>Ray CC&apos;s website. </subtitle><entry><title type="html">Test all in one</title><link href="https://raycc51.github.io/blog/2025/test/" rel="alternate" type="text/html" title="Test all in one"/><published>2025-02-02T09:50:00+00:00</published><updated>2025-02-02T09:50:00+00:00</updated><id>https://raycc51.github.io/blog/2025/test</id><content type="html" xml:base="https://raycc51.github.io/blog/2025/test/"><![CDATA[<h2 id="pinned">Pinned</h2> <p><code class="language-plaintext highlighter-rouge">featured: true</code></p> <hr/> <h1 id="giscus-comments"><a href="https://giscus.app/">Giscus</a> comments</h1> <p><code class="language-plaintext highlighter-rouge">giscus_comments: true</code></p> <hr/> <h2 id="image">Image</h2> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/1-480.webp 480w,/assets/img/1-800.webp 800w,/assets/img/1-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/1.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> test </div> <hr/> <h2 id="code">Code</h2> <figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2
 3
 </pre></td><td class="code"><pre><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Hello world!</span><span class="sh">"</span><span class="p">)</span>
 <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Hello world!</span><span class="sh">"</span><span class="p">)</span>
 <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Hello world!</span><span class="sh">"</span><span class="p">)</span>
-</pre></td></tr></tbody></table></code></pre></figure> <hr/> <h2 id="code-tab---jekyll-tabs">Code Tab - <a href="https://github.com/Ovski4/jekyll-tabs">jekyll-tabs</a></h2> <p><code class="language-plaintext highlighter-rouge">tabs: true</code></p> <ul id="group-name" class="tab" data-tab="47fe6cf0-0e28-427a-8ff0-cef1af070731" data-name="group-name"> <li class="active" id="group-name-python"> <a href="#">python </a> </li> <li id="group-name-js"> <a href="#">js </a> </li> <li id="group-name-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="47fe6cf0-0e28-427a-8ff0-cef1af070731" data-name="group-name"> <li class="active"> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">hello world</span><span class="sh">"</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></figure> <hr/> <h2 id="code-tab---jekyll-tabs">Code Tab - <a href="https://github.com/Ovski4/jekyll-tabs">jekyll-tabs</a></h2> <p><code class="language-plaintext highlighter-rouge">tabs: true</code></p> <ul id="group-name" class="tab" data-tab="64b4e292-bbe4-4257-8098-d97c873285bb" data-name="group-name"> <li class="active" id="group-name-python"> <a href="#">python </a> </li> <li id="group-name-js"> <a href="#">js </a> </li> <li id="group-name-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="64b4e292-bbe4-4257-8098-d97c873285bb" data-name="group-name"> <li class="active"> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">hello world</span><span class="sh">"</span><span class="p">)</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello world</span><span class="dl">"</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <hr/> <h2 id="math---mathjax-3">Math - <a href="https://www.mathjax.org/">MathJax 3</a></h2> \[\sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2\] <p>\begin{equation} \label{eq:cauchy-schwarz} \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right) \end{equation} </p> <hr/> <h2 id="redirect">Redirect</h2> <p><code class="language-plaintext highlighter-rouge">redirect: example.com</code></p> <p><code class="language-plaintext highlighter-rouge">redirect: /assets/pdf/example_pdf.pdf</code></p> <hr/> <h2 id="audio-video">Audio, Video</h2> <h3 id="audio">Audio</h3> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <audio src="/assets/audio/epicaly-short-113909.mp3" controls=""/> </figure> </div> <div class="col-sm mt-3 mt-md-0"> <figure> <audio src="https://cdn.pixabay.com/download/audio/2022/06/25/audio_69a61cd6d6.mp3" controls=""/> </figure> </div> </div> <div class="caption"> Audio in Left: asset, Right: web </div> <h3 id="video">Video</h3> <div class="col-sm mt-3 mt-md-0"> <figure> <video src="/assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" width="auto" height="auto" controls=""/> </figure> </div> <div class="caption"> Video in: asset </div> <h3 id="embedding-video">Embedding Video</h3> <div class="col-sm mt-3 mt-md-0"> <figure> <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"/> </figure> </div> <hr/> <h2 id="toc">TOC</h2> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>toc:
+</code></pre></div></div> </li> </ul> <hr/> <h2 id="math---mathjax-3">Math - <a href="https://www.mathjax.org/">MathJax 3</a></h2> \[\sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2\] <p>\begin{equation} \label{eq:cauchy-schwarz} \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right) \end{equation} </p> <hr/> <h2 id="redirect">Redirect</h2> <p><code class="language-plaintext highlighter-rouge">redirect: example.com</code></p> <p><code class="language-plaintext highlighter-rouge">redirect: /assets/image/1.jpg</code></p> <hr/> <h2 id="audio-video">Audio, Video</h2> <h3 id="audio">Audio</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="row mt-3"&gt;
+    &lt;div class="col-sm mt-3 mt-md-0"&gt;
+        &lt;figure&gt;
+  &lt;audio
+    src="/assets/audio/epicaly-short-113909.mp3"
+    
+    
+    
+    
+    
+      controls
+    
+    
+    
+  /&gt;
+
+  
+&lt;/figure&gt;
+
+    &lt;/div&gt;
+    &lt;div class="col-sm mt-3 mt-md-0"&gt;
+        &lt;figure&gt;
+  &lt;audio
+    src="https://cdn.pixabay.com/download/audio/2022/06/25/audio_69a61cd6d6.mp3"
+    
+    
+    
+    
+    
+      controls
+    
+    
+    
+  /&gt;
+
+  
+&lt;/figure&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="caption"&gt;
+  Audio in Left: asset, Right: web
+&lt;/div&gt;
+</code></pre></div></div> <h3 id="video">Video</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="col-sm mt-3 mt-md-0"&gt;
+    
+
+&lt;figure&gt;
+  
+    &lt;video
+      src="/assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4"
+      
+        class="img-fluid rounded z-depth-1"
+      
+      
+        width="auto"
+      
+      
+        height="auto"
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        controls
+      
+      
+      
+      
+    /&gt;
+
+  
+  
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;div class="caption"&gt;
+    Video in: asset
+&lt;/div&gt;
+</code></pre></div></div> <h3 id="embedding-video">Embedding Video</h3> <div class="col-sm mt-3 mt-md-0"> <figure> <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"/> </figure> </div> <hr/> <h2 id="toc">TOC</h2> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>toc:
   beginning: true
 </code></pre></div></div> <hr/> <h2 id="blockquote">Blockquote</h2> <blockquote> <p>Regular blockquote</p> </blockquote> <blockquote class="block-tip"> <h4 id="tip">Tip</h4> <p>I am a Tip!</p> </blockquote> <blockquote class="block-warning"> <h4 id="warning">Warning</h4> <p>I am a Warning!</p> </blockquote> <blockquote class="block-danger"> <h4 id="danger">Danger</h4> <p>I am a Danger!</p> </blockquote> ]]></content><author><name></name></author><category term="test-categories"/><category term="test-tags"/><summary type="html"><![CDATA[Test blog post tools]]></summary></entry></feed>
