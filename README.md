@@ -65,3 +65,5 @@ Should Rebuild: `YAML`
 - cv
 - teaching
 - dropdown
+
+### Remove unused files.
