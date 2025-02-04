@@ -56,6 +56,7 @@ Should Rebuild: `YAML`
 - %B %d, %Y -> %Y-%m-%d
 - post.liquid: Split lines between 'created in' and 'last update in'
 - header.liquid: navbar-expand-sm -> navbar-expand
+- footer.liquid: minified
 
 ## Remove
 
@@ -65,6 +66,7 @@ Should Rebuild: `YAML`
 - cv
 - teaching
 - dropdown
+- cdn
 
 ### Remove unused files.
 
