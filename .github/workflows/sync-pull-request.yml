@@ -17,4 +17,4 @@ jobs:
           echo "Merging pull request #${{ github.event.pull_request.number }}"
           gh pr merge ${{ github.event.pull_request.number }} --merge --admin
         env:
-          GITHUB_TOKEN: ${{ secrets.TEST_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SYNC_POSTS }}
