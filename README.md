@@ -87,6 +87,7 @@ Should Rebuild: `YAML`
   ```bash
   git subtree add --prefix=SUBTREE https://github.com/USER/REPO.git main --squash
   ```
+
 ## Work in `github.com/USER/REPO`
 1. In `github.com/USER/REPO`, working and pushing. 
 2. In `this repository`, run
@@ -94,10 +95,15 @@ Should Rebuild: `YAML`
   git subtree pull --prefix=SUBTREE https://github.com/USER/REPO.git main --squash
   ```
 3. `this repository`/SUBTREE is changed. 
+
 ## Work in `this repository`
 1. In `this repository`, working and pushing. 
-2. In `github.com/USER/REPO`, run
+2. In `this repository`, run
   ```bash
   git subtree push --prefix=SUBTREE https://github.com/USER/REPO.git main
   ```
 3. `github.com/USER/REPO` is changed. 
+4. In `github.com/USER/REPO`, run
+  ```bash
+  git pull origin main
+  ```
