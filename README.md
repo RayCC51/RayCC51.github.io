@@ -70,6 +70,8 @@ Should Rebuild: `YAML`
 
 ### Remove unused files.
 
+### Remove unused actions.
+
 ## Github Action
 
 - Add `--exclude '.*\.webp'` in `broken-links.yml` `jobs: ... args:`
