@@ -76,3 +76,26 @@ Should Rebuild: `YAML`
 
 - Add `--exclude '.*\.webp'` in `broken-links.yml` `jobs: ... args:`
 - Remove `on:pull_request: in `deploy.yml`
+
+---
+
+# RayCC51.github.io.posts
+
+This repo contain blog posts only
+
+
+## Use github action
+
+[Repo File Sync Action](https://github.com/marketplace/actions/repo-file-sync-action) by [BetaHuhn](https://github.com/BetaHuhn)
+
+## How it works
+
+**RayCC51/RayCC51.github.io.posts/** has `.github/workflows/sync.yml`, `.github/sync.yml`
+
+**RayCC51/RayCC51.github.io/** has `.github/workflows/sync-pull-request.yml`
+
+When I _push_ posts inside `RayCC51.github.io.posts/_posts/` repositories
+
+**Repo File Sync Action** automatically _push_ `RayCC51.github.io.posts/_posts/` to `RayCC51.github.io/_posts/`
+
+`sync-pull-request.yml` automatically _merge_ _pull_ request from myself
