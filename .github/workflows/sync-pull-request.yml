@@ -1,0 +1,20 @@
+name: Auto Merge Pull Requests
+
+on:
+  pull_request:
+    types: [opened, edited]
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+
+      - name: Merge Pull Request
+        if: github.actor == 'RayCC51' && contains(github.event.pull_request.title, '🔄 synced file(s) with RayCC51/RayCC51.github.io.posts')
+        run: |
+          echo "Merging pull request #${{ github.event.pull_request.number }}"
+          gh pr merge ${{ github.event.pull_request.number }} --merge --admin
+        env:
+          GITHUB_TOKEN: ${{ secrets.TEST_TOKEN }}
