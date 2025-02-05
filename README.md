@@ -48,6 +48,7 @@ Should Rebuild: `YAML`
 - h1.header-bar
 - img
 - figcaption
+- span.lb-caption
 - --global-theme-color: #{$purple-color} -> ???
 - --global-theme-color dark: #{$cyan-color} -> ???
 - @import -> @use
