@@ -50,7 +50,7 @@ Should Rebuild: `YAML`
 - figcaption
 - --global-theme-color: #{$purple-color} -> ???
 - --global-theme-color dark: #{$cyan-color} -> ???
-- fontawesome: local -> cdn
+- @import -> @use
 
 ## Liquid
 
@@ -58,6 +58,9 @@ Should Rebuild: `YAML`
 - post.liquid: Split lines between 'created in' and 'last update in'
 - header.liquid: navbar-expand-sm -> navbar-expand
 - footer.liquid: minified
+- head.liquid: fontawesome: local -> cdn
+- head.liquid: bootstrap v4.6.2: local -> cdn
+- scripts.liquid: bootstrap.bundle v4.6.2: local -> cdn
 
 ## Remove
 

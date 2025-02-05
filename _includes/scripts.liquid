@@ -5,8 +5,13 @@
   crossorigin="anonymous"
 ></script>
 
-<!-- Bootsrap & MDB scripts -->
+<!-- Bootstrap -->
+{% comment %}
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+{% endcomment %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.bundle.min.js" integrity="sha512-igl8WEUuas9k5dtnhKqyyld6TzzRjvMqLC79jkgT3z02FvJyHAuUtyemm/P/jYSne1xwFI06ezQxEwweaiV7VA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- MDB scripts -->
 <script
   src="{{ site.third_party_libraries.mdb.url.js }}"
   integrity="{{ site.third_party_libraries.mdb.integrity.js }}"
