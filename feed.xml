@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://raycc51.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://raycc51.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-02-05T03:04:41+00:00</updated><id>https://raycc51.github.io/feed.xml</id><title type="html">blank</title><subtitle>Ray CC&apos;s website. </subtitle><entry><title type="html">Sample blog post</title><link href="https://raycc51.github.io/blog/2025/test/" rel="alternate" type="text/html" title="Sample blog post"/><published>2025-02-02T09:50:00+00:00</published><updated>2025-02-02T09:50:00+00:00</updated><id>https://raycc51.github.io/blog/2025/test</id><content type="html" xml:base="https://raycc51.github.io/blog/2025/test/"><![CDATA[<h2 id="template">Template</h2> <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://raycc51.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://raycc51.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-02-05T12:50:00+00:00</updated><id>https://raycc51.github.io/feed.xml</id><title type="html">blank</title><subtitle>Ray CC&apos;s website. </subtitle><entry><title type="html">Let’s start blog!</title><link href="https://raycc51.github.io/blog/2025/start-blog/" rel="alternate" type="text/html" title="Let’s start blog!"/><published>2025-02-05T00:00:00+00:00</published><updated>2025-02-05T00:00:00+00:00</updated><id>https://raycc51.github.io/blog/2025/start-blog</id><content type="html" xml:base="https://raycc51.github.io/blog/2025/start-blog/"><![CDATA[<p>Hello world!</p>]]></content><author><name></name></author><category term="Chat"/><summary type="html"><![CDATA[First blog post]]></summary></entry><entry><title type="html">Sample blog post</title><link href="https://raycc51.github.io/blog/2025/test/" rel="alternate" type="text/html" title="Sample blog post"/><published>2025-02-02T09:50:00+00:00</published><updated>2025-02-02T09:50:00+00:00</updated><id>https://raycc51.github.io/blog/2025/test</id><content type="html" xml:base="https://raycc51.github.io/blog/2025/test/"><![CDATA[<h2 id="template">Template</h2> <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
 <span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
-<span class="na">title</span><span class="pi">:</span> <span class="s">Sample blog post</span>
-<span class="na">date</span><span class="pi">:</span> <span class="s">2025-02-02 09:50:00</span>
-<span class="c1"># last_updated: 2025-02-02 14:00:00</span>
-<span class="na">description</span><span class="pi">:</span> <span class="s">Test blog post tools</span>
-<span class="na">tags</span><span class="pi">:</span> <span class="s">sample</span>
-<span class="na">categories</span><span class="pi">:</span> <span class="s">sample</span>
-<span class="na">thumbnail</span><span class="pi">:</span> <span class="s">assets/img/1.jpg</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">2025-02-02</span>
+<span class="c1"># last_updated: 2025-02-02</span>
+<span class="na">title</span><span class="pi">:</span> 
+<span class="na">description</span><span class="pi">:</span> 
+<span class="na">tags</span><span class="pi">:</span> 
+<span class="na">categories</span><span class="pi">:</span> 
 <span class="na">giscus_comments</span><span class="pi">:</span> <span class="kc">true</span>
-<span class="na">featured</span><span class="pi">:</span> <span class="kc">true</span> <span class="c1"># Pinned</span>
-<span class="na">toc</span><span class="pi">:</span> <span class="kc">true</span>
-<span class="na">images</span><span class="pi">:</span>
-  <span class="na">lightbox2</span><span class="pi">:</span> <span class="kc">true</span>
+<span class="na">featured</span><span class="pi">:</span> <span class="kc">false</span> <span class="c1"># Pinned</span>
+<span class="na">toc</span><span class="pi">:</span> <span class="kc">false</span>
+<span class="c1"># thumbnail: assets/img/1.jpg</span>
+<span class="c1"># images:</span>
+<span class="c1">#   lightbox2: true</span>
 <span class="nn">---</span>
 </code></pre></div></div> <hr/> <h2 id="embedding-video">Embedding Video</h2> <div class="col-sm mt-3 mt-md-0"> <figure> <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"/> </figure> </div> <pre><code class="language-HTML">
 &lt;div class="col-sm mt-3 mt-md-0"&gt;

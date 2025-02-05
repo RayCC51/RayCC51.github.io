@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-sample-blog-post",
+        },{id: "post-let-39-s-start-blog",
+      
+        title: "Let&#39;s start blog!",
+      
+      description: "First blog post",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/start-blog/";
+        
+      },
+    },{id: "post-sample-blog-post",
       
         title: "Sample blog post",
       
