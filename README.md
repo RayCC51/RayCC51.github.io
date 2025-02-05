@@ -50,6 +50,7 @@ Should Rebuild: `YAML`
 - figcaption
 - --global-theme-color: #{$purple-color} -> ???
 - --global-theme-color dark: #{$cyan-color} -> ???
+- fontawesome: local -> cdn
 
 ## Liquid
 
