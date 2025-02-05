@@ -79,7 +79,7 @@ Should Rebuild: `YAML`
 ## Github Action
 
 - Add `--exclude '.*\.webp'` in `broken-links.yml` `jobs: ... args:`
-- Remove `on:pull_request: in `deploy.yml`
+- Remove `on:pull_request: in deploy.yml`
 
 ---
 
