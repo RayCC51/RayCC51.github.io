@@ -57,6 +57,7 @@ Should Rebuild: `YAML`
 - %B %d, %Y -> %Y-%m-%d
 - post.liquid: Split lines between 'created in' and 'last update in'
 - header.liquid: navbar-expand-sm -> navbar-expand
+- header.liquid: nav: remove about, always show navbar-brand
 - footer.liquid: minified
 - head.liquid: fontawesome: local -> cdn
 - head.liquid: bootstrap v4.6.2: local -> cdn
