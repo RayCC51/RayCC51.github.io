@@ -31,11 +31,11 @@ $(document).ready(function () {
     });
   }
 
-  // add css to jupyter notebooks
-  const cssLink = document.createElement("link");
-  cssLink.href = "../css/jupyter.css";
-  cssLink.rel = "stylesheet";
-  cssLink.type = "text/css";
+  // // add css to jupyter notebooks
+  // const cssLink = document.createElement("link");
+  // cssLink.href = "../css/jupyter.css";
+  // cssLink.rel = "stylesheet";
+  // cssLink.type = "text/css";
 
   let jupyterTheme = determineComputedTheme();
 
