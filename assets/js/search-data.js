@@ -49,11 +49,6 @@ ninja.data = [{
           title: 'Web Calculator',
           description: "work in process...",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/test_project/";
-            },},{id: "projects-web-calculator",
-          title: 'Web Calculator',
-          description: "work in process...",
-          section: "Projects",handler: () => {
               window.location.href = "/projects/web-calculator/";
             },},{
         id: 'social-github',
