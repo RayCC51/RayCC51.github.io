@@ -45,9 +45,9 @@ ninja.data = [{
           window.location.href = "/blog/2025/test/";
         
       },
-    },{id: "projects-sample-project",
-          title: 'Sample project',
-          description: "Test project tools.",
+    },{id: "projects-web-calculator",
+          title: 'Web Calculator',
+          description: "work in process...",
           section: "Projects",handler: () => {
               window.location.href = "/projects/test_project/";
             },},{
