@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Ray
 middle_name:
 last_name: CC
-contact_note: #??
+contact_note: # TODO
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ray CC's website.
 footer_text: >
@@ -291,7 +291,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-#?? display tags, categories
+# TODO display tags, categories
 display_tags: [] # ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["Chat"] # ["external-services"] # these categories will be displayed on the front page of your blog
 

@@ -6,9 +6,9 @@ subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: #?? profile
+  image: # TODO profile
   image_circular: false # crops the image to make it circular
-  more_info: #?? profile
+  more_info: #TODO profile
   # more_info: >
   # Hello world! This is my profile info.
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -32,7 +32,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 
-#?? biography
+# TODO biography
 -->
 
 Native language: 한국어(Korean)
