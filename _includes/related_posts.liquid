@@ -11,7 +11,7 @@
     <h3 class="text-3xl font-semibold mb-4 mt-12">Related posts</h3>
   {% endunless %}
 
-  <li class="my-2">
+  <li class="my-2" style="margin: 0 30px;">
     {% if post.redirect == blank %}
       <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ post.url | relative_url }}">{{ post.title }}</a>
     {% elsif post.redirect contains '://' %}
