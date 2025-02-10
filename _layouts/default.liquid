@@ -2,6 +2,25 @@
 <html lang="{{ site.lang }}">
   <!-- Head -->
   <head>
+
+{% comment %}
+If darkmode, background is black, before css loading. 
+{% endcomment %}
+    <script>
+    (function() {
+        const theme = localStorage.getItem("theme");
+
+        if (theme === "dark") {
+            document.body.style.backgroundColor = "#2f2c2c";
+        } else if (theme === "system") {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.body.style.backgroundColor = "#2f2c2c";
+            }
+        }
+    })();
+</script>
+
+
     {% if page.redirect %}
       {% if page.redirect == true %}
         {% assign redirect = site.baseurl | append: '/' %}
