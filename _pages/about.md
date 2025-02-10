@@ -6,9 +6,9 @@ subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: # TODO profile
+  image: # TODO profile image
   image_circular: false # crops the image to make it circular
-  more_info: #TODO profile
+  more_info: #TODO profile info
   # more_info: >
   # Hello world! This is my profile info.
 selected_papers: false # includes a list of papers marked as "selected={true}"

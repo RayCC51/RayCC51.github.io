@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: # TODO A growing collection of your cool projects.
+description: # TODO description
 nav: true
 nav_order: 3
-display_categories: [WebApp, App, Game] # TODO [work, fun] 
+display_categories: [WebApp, App, Game] # TODO categories
 horizontal: false
 ---
 
