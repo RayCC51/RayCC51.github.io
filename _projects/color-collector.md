@@ -3,7 +3,7 @@ layout: page
 title: Color Collector
 description: PWA color palette.
 category: WebApp
-img: assets/img/proj-color-collector.webp
+img: assets/img/color-collector-screenshot.webp
 redirect: /color-collector/
 ---
 
