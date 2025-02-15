@@ -4,7 +4,7 @@ title: Web Calculator
 description: work in process...
 category: WebApp
 img:
-rediret: /Web-Calculator/
+redirect: /Web-Calculator/
 ---
 
 Redirecting to another page.
