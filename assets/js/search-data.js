@@ -45,7 +45,12 @@ ninja.data = [{
           window.location.href = "/blog/2025/test/";
         
       },
-    },{id: "projects-web-calculator",
+    },{id: "projects-color-collector",
+          title: 'Color Collector',
+          description: "PWA color palette.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/color-collector/";
+            },},{id: "projects-web-calculator",
           title: 'Web Calculator',
           description: "work in process...",
           section: "Projects",handler: () => {
