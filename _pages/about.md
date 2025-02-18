@@ -36,10 +36,19 @@ latest_posts:
 
 I am ...
 
-Native 🍗: 한국어 <i class="fa-solid fa-gamepad" title="game"></i> <i class="fa-solid fa-book" title="book"></i>
+Native 🍗: 
+한국어 
+<i class="fa-solid fa-gamepad" title="game"></i> 
+<i class="fa-solid fa-book" title="book"></i>
 
-Not Native 🐓: English <i class="fa-brands fa-html5" style="color: #F16529;" title="HTML5"></i>
+Not Native 🐓: 
+English 
+<i class="fa-brands fa-html5" style="color: #F16529;" title="HTML5"></i>
 
-Not Newbie 🐥: <i class="fa-brands fa-python" style="color: #4B8BBE;" title="Python"></i> <i class="fa-brands fa-js" style="color: #F0DB4F;" title="JavaScript"></i> <i class="fa-brands fa-css3-alt" style="color: #0277bd;" title="CSS"></i>
+Not Newbie 🐥: 
+<img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" class="logoIcon" title="Python"> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/240px-JavaScript-logo.png" class="logoIcon" title="JavaScript">
+<i class="fa-brands fa-css3-alt" style="color: #0277bd;" title="CSS"></i>
 
-Newbie 🥚: <i class="fa-brands fa-flutter" style="color: #027DFD;" title="Flutter"></i>
+Newbie 🥚: 
+<img src="https://storage.googleapis.com/cms-storage-bucket/0dbfcc7a59cd1cf16282.png" class="logoIcon" title="Flutter">

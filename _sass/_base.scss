@@ -25,6 +25,13 @@ body{
   margin: 0 20px;
 }
 
+img.logoIcon{
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  display: inline-block;
+}
+
 @media(max-width: 700px){
   body{
     margin: 0 10px;
