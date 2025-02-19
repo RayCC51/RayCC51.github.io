@@ -47,7 +47,7 @@ ninja.data = [{
       },
     },{id: "projects-color-collector",
           title: 'Color Collector',
-          description: "Web color palette.",
+          description: "PWA color palette.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/color-collector/";
             },},{id: "projects-web-calculator",
