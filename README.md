@@ -14,16 +14,6 @@
 
 ---
 
-# Tag, Categories
-
-- **Blog**: `_config.yml`
-  `display_tags: ["sample"]`
-  `display_categories: []`
-- **Project**: `projects.md`
-  `display_categories: [study]`
-
----
-
 # Run in local
 
 Run in terminal: `bundle exec jekyll serve --watch`
