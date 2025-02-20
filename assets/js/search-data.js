@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-let-39-s-start-blog",
+        },{id: "post-my-color-palette",
+      
+        title: "My Color Palette",
+      
+      description: "Colors",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/color/";
+        
+      },
+    },{id: "post-let-39-s-start-blog",
       
         title: "Let&#39;s start blog!",
       
