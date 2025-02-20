@@ -39,8 +39,8 @@ Should Rebuild: `YAML`
 - img
 - figcaption
 - span.lb-caption
-- --global-theme-color: #{$purple-color} -> ???
-- --global-theme-color dark: #{$cyan-color} -> ???
+- --global-theme-color: #{$purple-color} -> #BF4040
+- --global-theme-color dark: #{$cyan-color} -> #BF4040
 - @import -> @use
 
 ## Liquid
