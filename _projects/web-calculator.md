@@ -3,7 +3,7 @@ layout: page
 title: Web Calculator
 description: Calculator
 category: WebApp
-img: assets/img/project_screenshot/screenshot_calculator.webp
+img: assets/img/project_screenshot/calculator.webp
 redirect: /Web-Calculator/
 ---
 
