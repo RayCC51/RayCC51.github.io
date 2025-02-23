@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Web Calculator
-description: work in process...
+description: Calculator
 category: WebApp
-img:
+img: assets/img/screenshot_calculator.webp
 redirect: /Web-Calculator/
 ---
 
