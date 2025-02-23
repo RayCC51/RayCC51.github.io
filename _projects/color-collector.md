@@ -3,7 +3,7 @@ layout: page
 title: Color Collector
 description: Web color palette.
 category: WebApp
-img: assets/img/color-collector-screenshot.webp
+img: assets/img/project_screenshot/color-collector-screenshot.webp
 redirect: /color-collector/
 ---
 

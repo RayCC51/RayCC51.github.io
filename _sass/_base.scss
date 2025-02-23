@@ -32,6 +32,14 @@ img.logoIcon{
   display: inline-block;
 }
 
+// _includes/projects_horizontal.liquid
+// project page thumbnail image ratio
+.card-img-top{
+  object-fit: cover;
+  width: 300px;
+  height: 150px;
+}
+
 @media(max-width: 700px){
   body{
     margin: 0 10px;
