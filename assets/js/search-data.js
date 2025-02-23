@@ -63,7 +63,7 @@ ninja.data = [{
               window.location.href = "/projects/color-collector/";
             },},{id: "projects-web-calculator",
           title: 'Web Calculator',
-          description: "work in process...",
+          description: "Calculator",
           section: "Projects",handler: () => {
               window.location.href = "/projects/web-calculator/";
             },},{
