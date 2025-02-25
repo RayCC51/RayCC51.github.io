@@ -291,7 +291,7 @@ jekyll-archives:
 
 # TODO tags, categories
 display_tags: [] # ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["Chat", "Memo"] # ["external-services"] # these categories will be displayed on the front page of your blog
+display_categories: ["Chat", "Memo", "Study"] # ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
