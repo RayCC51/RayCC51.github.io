@@ -2,11 +2,7 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
-// Typography
-
-*{
-  // font-weight: 900;
-}
+// Custom css
 
 img {
   max-width: 100%;
@@ -25,6 +21,7 @@ body{
   margin: 0 20px;
 }
 
+// about
 img.logoIcon{
   width: 1em;
   height: 1em;
@@ -40,11 +37,41 @@ img.logoIcon{
   height: 150px;
 }
 
+// mobile view
 @media(max-width: 700px){
   body{
     margin: 0 10px;
   }
 }
+
+// toc
+#table-of-contents{
+  position: sticky;  
+  top: 57px; 
+  background-color: var(--global-bg-color);
+  border-top: 1px solid var(--global-theme-color);
+  border-bottom: 1px solid var(--global-theme-color);
+  padding: 10px;
+  z-index: 1;
+}
+#table-of-contents summary{
+  font-weight: 400;
+}
+progress{
+  background-color: var(--global-bg-color) !important;
+}
+
+// overflow-x
+table{
+  display: block;
+  overflow-x: auto;
+}
+tr{
+  border-top: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+// End custom css
 
 p,
 h1,

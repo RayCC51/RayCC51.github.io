@@ -32,6 +32,10 @@ Should Rebuild: `YAML`
 - \_config.yml
 - socials.yml
 
+## JS
+
+- add assets/js/custom.js
+
 ## SCSS
 
 - grey-color-dark: #1c1c1d -> #2f2c2c
