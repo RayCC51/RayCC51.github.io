@@ -72,7 +72,7 @@ table{
   display: block;
   overflow-x: auto;
 }
-tr{
+.table-hover tr{
   border-top: 1px solid var(--global-divider-color);
   border-bottom: 1px solid var(--global-divider-color);
 }
