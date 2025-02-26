@@ -53,6 +53,8 @@ img.logoIcon{
   border-bottom: 1px solid var(--global-theme-color);
   padding: 5px;
   z-index: 1;
+  max-height: 20em;
+  overflow-y: auto;
 }
 #table-of-contents summary{
   font-weight: 400;
