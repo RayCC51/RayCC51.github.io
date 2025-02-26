@@ -23,7 +23,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-my-color-palette",
+        },{id: "post-javascript-summary",
+      
+        title: "JavaScript summary",
+      
+      description: "Studying js language",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/js/";
+        
+      },
+    },{id: "post-dart-3-6-summary",
+      
+        title: "Dart 3.6 summary",
+      
+      description: "Studying dart language",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/dart/";
+        
+      },
+    },{id: "post-my-color-palette",
       
         title: "My Color Palette",
       
