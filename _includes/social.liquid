@@ -1,9 +1,17 @@
 {% for social in site.data.socials %}
   {% case social[0] %}
     {% when 'github_username' %}
+      <a href="https://github.com/{{ social[1] }}" title="GitHub"><i class="icon-github-squared"></i></a>
+    {% when 'rss_icon' %}
+      <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="icon-rss-squared"></i></a>
+
+
+    {% comment %}
+    {% when 'github_username' %}
       <a href="https://github.com/{{ social[1] }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
     {% when 'rss_icon' %}
       <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
+    {% endcomment %}
 
     {% comment %}
     {% when 'acm_id' %}

@@ -38,17 +38,17 @@ I am ...
 
 Native 🍗: 
 한국어 
-<i class="fa-solid fa-gamepad" title="game"></i> 
-<i class="fa-solid fa-book" title="book"></i>
+<i class="icon-gamepad"></i>
+<i class="icon-book"></i>
 
 Not Native 🐓: 
 English 
-<i class="fa-brands fa-html5" style="color: #F16529;" title="HTML5"></i>
+<img src="assets/icon/icons8-html5-48.png" class="logoIcon" title="HTML5">
 
 Not Newbie 🐥: 
 <img src="assets/icon/python-logo-only.png" class="logoIcon" title="Python"> 
 <img src="assets/icon/JavaScript-logo.png" class="logoIcon" title="JavaScript">
-<i class="fa-brands fa-css3-alt" style="color: #0277bd;" title="CSS"></i>
+<img src="assets/icon/icons8-css-48.png" class="logoIcon" title="CSS"> 
 
 Newbie 🥚: 
 <img src="assets/icon/Flutter-icon.png" class="logoIcon" title="Flutter">

@@ -35,7 +35,10 @@ pagination:
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
         <li>
+          <i class="icon-hashtag"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+          {% comment %}
           <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+          {% endcomment %}
         </li>
         {% unless forloop.last %}
           <p>&bull;</p>
@@ -46,7 +49,10 @@ pagination:
       {% endif %}
       {% for category in site.display_categories %}
         <li>
+          <i class="icon-tag"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
+          {% comment %}
           <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
+          {% endcomment %}
         </li>
         {% unless forloop.last %}
           <p>&bull;</p>
@@ -71,7 +77,10 @@ pagination:
 <div class="col-md-12">
 <div class="card-body">
 <div class="float-right">
+<i class="icon-pin"></i>
+{% comment %}
 <i class="fa-solid fa-thumbtack fa-xs"></i>
+{% endcomment %}
 </div>
 <h3 class="card-title text-lowercase">{{ post.title }}</h3>
 <p class="card-text">{{ post.description }}</p>
@@ -86,7 +95,10 @@ pagination:
                     <p class="post-meta">
                       {{ read_time }} min read &nbsp; &middot; &nbsp;
                       <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+                        <i class="icon-calendar"></i> {{ year }} </a>
+                        {% comment %}
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+                        {% endcomment %}
                     </p>
                   </div>
                 </div>
@@ -149,13 +161,19 @@ pagination:
       </p>
       <p class="post-tags">
         <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+          <i class="icon-calendar"></i> {{ year }} </a>
+          {% comment %}
           <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+          {% endcomment %}
 
           {% if tags != "" %}
           &nbsp; &middot; &nbsp;
             {% for tag in post.tags %}
             <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
+              <i class="icon-hashtag"></i> {{ tag }}</a>
+              {% comment %}
               <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
+              {% endcomment %}
               {% unless forloop.last %}
                 &nbsp;
               {% endunless %}
@@ -166,7 +184,10 @@ pagination:
           &nbsp; &middot; &nbsp;
             {% for category in post.categories %}
             <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
+              <i class="icon-tag"></i> {{ category }}</a>
+              {% comment %}
               <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a>
+              {% endcomment %}
               {% unless forloop.last %}
                 &nbsp;
               {% endunless %}

@@ -54,7 +54,8 @@ Should Rebuild: `YAML`
 - header.liquid: navbar-expand-sm -> navbar-expand
 - header.liquid: nav: remove about, always show navbar-brand
 - footer.liquid: minified
-- head.liquid: fontawesome: local -> cdn
+- head.liquid: fontawesome -> fontrello 
+> fa-magnifying-glass, fa-lightbulb, fa-moon, fa-sun, fa-github, fa-star, fa-tag, fa-hashtag, fa-calendar, fa-thumbtack, fa-clipboard, fa-clipboard-check
 
 
 ## Remove
