@@ -1,3 +1,12 @@
+<!-- Theme prevent darkmode FOUC -->
+<script>
+let theme = localStorage.getItem("theme");
+if (theme === "dark" || (theme === "system" && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.querySelector("body").style.backgroundColor = "#2f2c2c";
+}
+</script>
+
+
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
