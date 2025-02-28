@@ -35,6 +35,7 @@ Should Rebuild: `YAML`
 ## JS
 
 - add assets/js/custom.js
+- download third party library
 
 ## SCSS
 
