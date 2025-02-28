@@ -55,8 +55,7 @@ Should Rebuild: `YAML`
 - header.liquid: nav: remove about, always show navbar-brand
 - footer.liquid: minified
 - head.liquid: fontawesome: local -> cdn
-- head.liquid: bootstrap v4.6.2: local -> cdn
-- scripts.liquid: bootstrap.bundle v4.6.2: local -> cdn
+
 
 ## Remove
 
