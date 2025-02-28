@@ -46,9 +46,9 @@ English
 <img src="assets/icon/icons8-html5-48.png" class="logoIcon" title="HTML5">
 
 Not Newbie 🐥: 
-<img src="assets/icon/python-logo-only.png" class="logoIcon" title="Python"> 
-<img src="assets/icon/JavaScript-logo.png" class="logoIcon" title="JavaScript">
+<img src="assets/icon/icons8-python-48.png" class="logoIcon" title="Python"> 
+<img src="assets/icon/icons8-javascript-48.png" class="logoIcon" title="JavaScript">
 <img src="assets/icon/icons8-css-48.png" class="logoIcon" title="CSS"> 
 
 Newbie 🥚: 
-<img src="assets/icon/Flutter-icon.png" class="logoIcon" title="Flutter">
+<img src="assets/icon/icons8-flutter-48.png" class="logoIcon" title="Flutter">
