@@ -23,7 +23,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-7-free-ways-to-create-games-using-only-android",
+        },{id: "post-regexp-cheat-sheet",
+      
+        title: "RegExp cheat sheet",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/regexp/";
+        
+      },
+    },{id: "post-python-cheat-sheet",
+      
+        title: "Python cheat sheet",
+      
+      description: "Studying python language",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/python/";
+        
+      },
+    },{id: "post-markdown-cheat-sheet",
+      
+        title: "Markdown cheat sheet",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/markdown/";
+        
+      },
+    },{id: "post-7-free-ways-to-create-games-using-only-android",
       
         title: "7 Free ways to create Games using only Android",
       
@@ -34,9 +67,9 @@ ninja.data = [{
           window.location.href = "/blog/2025/game-android/";
         
       },
-    },{id: "post-javascript-cheatsheet",
+    },{id: "post-javascript-cheat-sheet",
       
-        title: "JavaScript cheatsheet",
+        title: "JavaScript cheat sheet",
       
       description: "Studying js language",
       section: "Posts",
@@ -45,9 +78,9 @@ ninja.data = [{
           window.location.href = "/blog/2025/js/";
         
       },
-    },{id: "post-dart-3-6-cheatsheet",
+    },{id: "post-dart-3-6-cheat-sheet",
       
-        title: "Dart 3.6 cheatsheet",
+        title: "Dart 3.6 cheat sheet",
       
       description: "Studying dart language",
       section: "Posts",
