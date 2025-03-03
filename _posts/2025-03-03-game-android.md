@@ -61,7 +61,7 @@ Publish to: Android, Desktop, (Paid version: Web, iOS)
 
 Pricing: <https://gdevelop.io/pricing>
 
-[Play store] (https://play.google.com/store/apps/details?id=io.gdevelop.ide)
+[Play store](https://play.google.com/store/apps/details?id=io.gdevelop.ide)
 
 
 ---
