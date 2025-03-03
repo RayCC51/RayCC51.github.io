@@ -36,6 +36,11 @@ img.logoIcon{
   width: 300px;
   height: 150px;
 }
+// blog page thumbnail image 
+.card-img{
+  object-fit: cover;
+  height: 150px !important;
+}
 
 // mobile view
 @media (max-width: 576px) {
