@@ -23,9 +23,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-javascript-summary",
+        },{id: "post-7-free-ways-to-create-games-using-only-android",
       
-        title: "JavaScript summary",
+        title: "7 Free ways to create Games using only Android",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/game-android/";
+        
+      },
+    },{id: "post-javascript-cheatsheet",
+      
+        title: "JavaScript cheatsheet",
       
       description: "Studying js language",
       section: "Posts",
@@ -34,9 +45,9 @@ ninja.data = [{
           window.location.href = "/blog/2025/js/";
         
       },
-    },{id: "post-dart-3-6-summary",
+    },{id: "post-dart-3-6-cheatsheet",
       
-        title: "Dart 3.6 summary",
+        title: "Dart 3.6 cheatsheet",
       
       description: "Studying dart language",
       section: "Posts",
