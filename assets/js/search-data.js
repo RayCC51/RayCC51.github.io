@@ -122,16 +122,16 @@ ninja.data = [{
           window.location.href = "/blog/2025/test/";
         
       },
-    },{id: "projects-color-collector",
-          title: 'Color Collector',
-          description: "Web color palette.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/color-collector/";
-            },},{id: "projects-web-calculator",
+    },{id: "projects-web-calculator",
           title: 'Web Calculator',
           description: "Calculator",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/web-calculator/";
+              window.location.href = "/projects/1-web-calculator/";
+            },},{id: "projects-color-collector",
+          title: 'Color Collector',
+          description: "Web color palette.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2-color-collector/";
             },},{
         id: 'social-github',
         title: 'GitHub',
