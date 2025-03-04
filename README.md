@@ -58,6 +58,9 @@ Should Rebuild: `YAML`
 - head.liquid: fontawesome -> fontrello 
 > fa-magnifying-glass, fa-lightbulb, fa-moon, fa-sun, fa-github, fa-star, fa-tag, fa-hashtag, fa-calendar, fa-thumbtack, fa-clipboard, fa-clipboard-check
 
+## Pages
+- {% assign sorted_projects = categorized_projects | reverse %}
+
 
 ## Remove
 

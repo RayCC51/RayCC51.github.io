@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: # TODO description
+description: 
 nav: true
 nav_order: 3
 display_categories: [WebApp, App, Game] # TODO categories
@@ -18,7 +18,10 @@ horizontal: false
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign sorted_projects = categorized_projects | reverse %}
+  {% comment %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  {% endcomment %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
