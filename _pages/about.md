@@ -43,12 +43,12 @@ Native 🍗:
 
 Not Native 🐓: 
 English 
-<img src="assets/icon/icons8-html5-48.png" class="logoIcon" title="HTML5">
+<img src="assets/icon/about/icons8-html5-48.png" class="logoIcon" title="HTML5">
 
 Not Newbie 🐥: 
-<img src="assets/icon/icons8-python-48.png" class="logoIcon" title="Python"> 
-<img src="assets/icon/icons8-javascript-48.png" class="logoIcon" title="JavaScript">
-<img src="assets/icon/icons8-css-48.png" class="logoIcon" title="CSS"> 
+<img src="assets/icon/about/icons8-python-48.png" class="logoIcon" title="Python"> 
+<img src="assets/icon/about/icons8-javascript-48.png" class="logoIcon" title="JavaScript">
+<img src="assets/icon/about/icons8-css-48.png" class="logoIcon" title="CSS"> 
 
 Newbie 🥚: 
-<img src="assets/icon/icons8-flutter-48.png" class="logoIcon" title="Flutter">
+<img src="assets/icon/about/icons8-flutter-48.png" class="logoIcon" title="Flutter">

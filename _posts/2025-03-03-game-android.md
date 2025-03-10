@@ -17,6 +17,9 @@ images:
 
 I roughly sorted them by difficulty. The further down, the harder it gets.
 
+
+<br/>
+
 ---
 
 ## 1. [Castle.xyz](https://castle.xyz/) [No code]
@@ -38,6 +41,8 @@ Publish to: Web
 
 [Play store](https://play.google.com/store/apps/details?id=xyz.castle)
 
+
+<br/>
 
 ---
 
@@ -64,6 +69,8 @@ Pricing: <https://gdevelop.io/pricing>
 [Play store](https://play.google.com/store/apps/details?id=io.gdevelop.ide)
 
 
+<br/>
+
 ---
 
 ## 3. [microStudio](https://microstudio.dev/) [MicroScript]
@@ -88,6 +95,8 @@ MicroScript is based on Lua. microStudio also support Python, JavaScript, Lua.
 
 microStudio is web base game engine. You don't need to install any app. Just click <https://microstudio.dev/projects/>
 
+
+<br/>
 
 ---
 
@@ -141,6 +150,8 @@ Or just add single line on your `html`, inside `<head>`
 5. Paste code on your `index.html`
 6. Local hosting!
 
+
+<br/>
 
 ---
 
@@ -200,6 +211,8 @@ You can build your love game to html + js. But it has many limitations.
 Visit <https://schellingb.github.io/LoveWebBuilder/>
 
 
+<br/>
+
 ---
 
 ## 6. [Godot](https://godotengine.org/) [GDScript]
@@ -223,6 +236,8 @@ Publish to: Android, iOS, Windows, MacOS, Linux, Console
 [Play store](https://play.google.com/store/apps/details?id=org.godotengine.editor.v4)
 
 
+<br/>
+
 ---
 
 ## 7. [Termux](https://termux.dev/en/)
@@ -232,6 +247,8 @@ Termux is terminal, not game framework. You can run Linux with Termux. That mean
 Visit <https://f-droid.org/en/packages/com.termux/>, and donwload `Termux`
 
 
+<br/>
+
 ---
 
 ## + Keyboard app
@@ -239,15 +256,14 @@ Visit <https://f-droid.org/en/packages/com.termux/>, and donwload `Termux`
 I recommend [Unexpected Keyboard](https://play.google.com/store/apps/details?id=juloo.keyboard2). You can customize every key. 
 
 
+<br/>
+
 ---
 
 ## Conclusion 
 
-
-I'm new to programming -> microStudio
-
-I have desktop or laptop -> Löve
-
 I have tablet, keyboard, mouse -> Godot 
+
+I Love challenge -> Löve & Termux
 
 Otherwise -> Phaser
