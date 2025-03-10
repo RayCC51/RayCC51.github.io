@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-regexp-cheat-sheet",
+        },{id: "post-github-app-posting-test",
+      
+        title: "Github app posting test",
+      
+      description: "Is it possible to write post with github app?",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/github-app/";
+        
+      },
+    },{id: "post-regexp-cheat-sheet",
       
         title: "RegExp cheat sheet",
       
