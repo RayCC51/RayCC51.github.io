@@ -71,6 +71,7 @@ Should Rebuild: `YAML`
 - teaching
 - dropdown
 - cdn
+- about.md -> latest_posts: enabled: false
 
 ### Remove unused files.
 
